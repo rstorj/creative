@@ -2,21 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WaterController : VRTK.VRTK_InteractableObject {
+public class WaterController : MonoBehaviour {
 	public GameObject waterDrop;
 	public Transform startPosition;
 	private AudioSource audioSource;
-
-	public override void StartUsing(VRTK.VRTK_InteractUse usingObject)
-	{
-		base.StartUsing(usingObject);
-		pumpWater ();
-	}
-
-//	public override void StopUsing(VRTK.VRTK_InteractUse usingObject)
-//	{
-//		base.StopUsing(usingObject);
-//	}
 
 	// Use this for initialization
 	void Start () {
@@ -30,8 +19,8 @@ public class WaterController : VRTK.VRTK_InteractableObject {
 			if (!IsInvoking("pumpWater")){
 				Invoke("pumpWater", 0f);
 			}
-
 		}
+	
 
 	}		
 

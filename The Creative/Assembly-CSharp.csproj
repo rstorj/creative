@@ -71,6 +71,7 @@
      <Compile Include="Assets\Scripts\cameraMovement.cs" />
      <Compile Include="Assets\Scripts\flowerAnimController.cs" />
      <Compile Include="Assets\Scripts\main.cs" />
+     <Compile Include="Assets\Scripts\metaBalls.cs" />
      <Compile Include="Assets\Scripts\waterDropController.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
