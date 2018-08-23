@@ -481,7 +481,7 @@
 			//Update FPS and counters every second
 			if(lt+1<Time.time) {
 				lt=Time.time;
-				GUIText guit=(GUIText) GameObject.Find("guit").guiText;
+				GUIText guit=(GUIText) GameObject.Find("guit").GetComponent<GUIText>();
 				guit.text="T:"+triP+" V:"+vertP+" C:"+cubec+" FPS:"+(int)(1f/Time.deltaTime);
 			}
 			blobs[0][0]=.12f+.12f*(float)Mathf.Sin((float)Time.time*.50f);
