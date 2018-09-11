@@ -7,3 +7,4 @@
 *.lpg
 The\ Creative/Assets/Standard\Assets/**
 The\Creative/Assets/Plugins/**
+*.csproj
